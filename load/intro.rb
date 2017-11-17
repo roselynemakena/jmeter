@@ -13,5 +13,10 @@ puts "#{h.ljust(10)}---Suitable time to test the application --"
 puts "#{h.ljust(10)}---performance metrics, SLAs, accepted levels, goals --"
 puts "#{h.ljust(10)}---Objectives of the test --"
 puts "#{h.ljust(10)}---IPs the application will be using --"
+puts "#{h.ljust(10)}---Applications state --"
+puts "#{h.ljust(10)}---Workload at normal and at peak times --"
+puts "#{h.ljust(10)}---NB:: Load test is best performed when the applicaion is stable enough under UAT --"
+puts "#{h.ljust(10)}---NB:: KEep a close watch on memory, network, disk space and processor speeds --"
+
 
 
