@@ -42,7 +42,31 @@ puts "#{h.ljust(15)}---The data is stored to a .jtl file"
 puts "#{h.ljust(15)}---Configure button is used to choose the type of data to be written to file for later use."
 puts "#{h.ljust(15)}---The data is stored to a .jtl file"
 puts "#{h.ljust(15)}---Listeners use alot of memory. Use them wisely."
-puts "#{h.ljust(15)}---Recommendation:: Using simple data writer listener
+puts "#{h.ljust(15)}---Recommendation:: Using simple data writer listener"
+
+
+puts "---Timers---"
+puts "#{h.ljust(10)}---Allow jmeter to pause between successive thread requests, this is because
+							jmeter sends a thread one after the other and this could overwhelm the server --"
+
+puts "---Assertions -> --"
+puts "#{h.ljust(10)}---Assertions: Used to validate requests received using a sampler > For validations --"
+puts "#{h.ljust(10)}--- --"
+
+puts "---Configuration Elements -> --"
+puts "#{h.ljust(10)}---Used to define config eements to be used by the sampler --"
+puts "#{h.ljust(10)}---It can only be accessed within the scope which it is defined --"
+
+puts "---Pre processor elements -> --"
+puts "#{h.ljust(10)}---Used to modify the settings of a sample request just before it runs --"
+
+puts "---Post processor elements -> --"
+puts "#{h.ljust(10)}---Used to modify the settings of a sample request after the sampler runs --"
+puts "#{h.ljust(10)}---Best to place them as a child of the sampler --"
+puts "#{h.ljust(10)}---Used to retrieve values from response for later use --"
+
+
+
 
 
 
