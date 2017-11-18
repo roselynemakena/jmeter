@@ -18,5 +18,12 @@ puts "#{h.ljust(10)}---Workload at normal and at peak times --"
 puts "#{h.ljust(10)}---NB:: Load test is best performed when the applicaion is stable enough under UAT --"
 puts "#{h.ljust(10)}---NB:: KEep a close watch on memory, network, disk space and processor speeds --"
 
+puts "---Recording HTTP tests -> --"
+puts "#{h.ljust(10)}---HTTP proxy element serves under a workbench --"
+puts "#{h.ljust(10)}---Workbench elements are not stored as part of the test plan --"
+
+
+
+
 
 
